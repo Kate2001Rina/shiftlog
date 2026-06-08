@@ -1,0 +1,46 @@
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+gradle.properties.local
+
+# Android generated
+**/R.java
+**/gen/
+**/lint/
+**/proguard/
+
+# Keystore
+*.jks
+*.keystore
+keystore.properties
+
+# APK / AAB — тяжелые бинарники
+*.apk
+*.aab
+*.ap_
+
+# Captures / profiling
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Navigation safe args generated
+**/generated/
+
+# Test results
+**/test-results/
+**/androidTest-results/
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
+fabric.properties
